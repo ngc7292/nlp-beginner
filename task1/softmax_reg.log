@@ -1,0 +1,361 @@
+nohup: 忽略输入
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.005000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.050000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 0.500000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 10000
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 128
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 64
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 32
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 16
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 1
+
+Counter({2: 53161, 3: 22198, 1: 18258, 4: 6165, 0: 4778})
+********************
+
+training new model which argv is:learning rate is 1.000000epoch is 40batch size is 1
+
