@@ -83,29 +83,28 @@ def get_pretrained(id2word, model_file, vec_dim=50):
             count += 1
         except:
             continue
-    print("total %d words and in %s find %d words" % (len(id2word),model_file, count))
+    print("total %d words and in %s find %d words" % (len(id2word), model_file, count))
     return res.float()
 
 
-def get_dataloader(batch_size=32, set_len=-1, sentence_len=50, pre_model = 'glove'):
+def get_dataloader(batch_size=32, set_len=-1, sentence_len=50, pre_model='glove'):
     """
     :param batch_size:
     :return:
     """
     train = pd.read_csv('../data/train.tsv', sep='\t')
     test = pd.read_csv('../data/test.tsv', sep='\t')
-    model_file = "../data/pre/glove.6B.50d.word2vec.txt"
 
     int2word, word2id, phrase_to_int = Corpus_Extr(train)
 
     pad_sequences = Pad_sequences(phrase_to_int, sentence_len)
 
     if pre_model == "word2vec":
-        model_file = "../data/pre/word2vec.50d.word2vec.txt"
+        model_file = "../data/pre/word2vec.100d.word2vec.txt"
     else:
-        model_file = "../data/pre/glove.6B.50d.word2vec.txt"
+        model_file = "../data/pre/glove.6B.100d.word2vec.txt"
 
-    embed_pretrain = get_pretrained(int2word, model_file)
+    embed_pretrain = get_pretrained(int2word, model_file, vec_dim=100)
 
     x = pad_sequences
     y = train['Sentiment'].values
@@ -118,13 +117,14 @@ def get_dataloader(batch_size=32, set_len=-1, sentence_len=50, pre_model = 'glov
     else:
         train_set = PhraseDataset(train_x, train_y)
 
-    test_set = PhraseDataset(test_x,test_y)
+    test_set = PhraseDataset(test_x, test_y)
     train_loader = DataLoader(train_set, batch_size=batch_size)
     test_loader = DataLoader(test_set, batch_size=batch_size)
 
     return train_loader, test_loader, embed_pretrain, len(word2id)
 
+
 if __name__ == '__main__':
-    train_loader,test_loader,embed_pretrain, vocab_size = get_dataloader(pre_model="word2vec")
+    train_loader, test_loader, embed_pretrain, vocab_size = get_dataloader(pre_model="word2vec")
     i = next(iter(train_loader))
     print(i)

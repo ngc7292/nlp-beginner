@@ -1,0 +1,329 @@
+nohup: 忽略输入
+  0%|          | 0/156060 [00:00<?, ?it/s]  7%|▋         | 10267/156060 [00:00<00:01, 102669.12it/s] 13%|█▎        | 19802/156060 [00:00<00:01, 100357.26it/s] 16%|█▌        | 24819/156060 [00:00<00:02, 64747.93it/s]  22%|██▏       | 33768/156060 [00:00<00:01, 70603.78it/s] 25%|██▌       | 39655/156060 [00:00<00:02, 57513.78it/s] 29%|██▉       | 44980/156060 [00:00<00:02, 49753.89it/s] 32%|███▏      | 50389/156060 [00:00<00:02, 50979.18it/s] 37%|███▋      | 57270/156060 [00:00<00:01, 55276.06it/s] 41%|████      | 64257/156060 [00:01<00:01, 58970.43it/s] 48%|████▊     | 74712/156060 [00:01<00:01, 67842.96it/s] 53%|█████▎    | 82052/156060 [00:01<00:01, 63045.35it/s] 59%|█████▉    | 92475/156060 [00:01<00:00, 71523.42it/s] 66%|██████▌   | 102877/156060 [00:01<00:00, 78919.60it/s] 73%|███████▎  | 113394/156060 [00:01<00:00, 85305.85it/s] 79%|███████▊  | 122585/156060 [00:01<00:00, 75510.51it/s] 84%|████████▍ | 130805/156060 [00:01<00:00, 62087.57it/s] 88%|████████▊ | 137876/156060 [00:02<00:00, 58248.38it/s] 94%|█████████▍| 147379/156060 [00:02<00:00, 65899.37it/s] 99%|█████████▉| 154764/156060 [00:02<00:00, 62408.99it/s]100%|██████████| 156060/156060 [00:02<00:00, 68046.94it/s]
+  0%|          | 0/156060 [00:00<?, ?it/s]  9%|▊         | 13270/156060 [00:00<00:01, 132696.01it/s] 13%|█▎        | 19996/156060 [00:00<00:01, 102716.04it/s] 21%|██▏       | 33300/156060 [00:00<00:01, 110254.98it/s] 30%|██▉       | 46286/156060 [00:00<00:00, 115484.67it/s] 37%|███▋      | 57727/156060 [00:00<00:00, 115158.86it/s] 45%|████▌     | 70427/156060 [00:00<00:00, 118471.45it/s] 54%|█████▍    | 84363/156060 [00:00<00:00, 124047.93it/s] 62%|██████▏   | 97509/156060 [00:00<00:00, 126178.59it/s] 70%|███████   | 109595/156060 [00:00<00:00, 98040.10it/s] 77%|███████▋  | 119990/156060 [00:01<00:00, 65626.24it/s] 85%|████████▌ | 132814/156060 [00:01<00:00, 76879.45it/s] 93%|█████████▎| 145572/156060 [00:01<00:00, 87284.35it/s]100%|██████████| 156060/156060 [00:01<00:00, 100599.94it/s]
+  0%|          | 0/156060 [00:00<?, ?it/s] 21%|██        | 32956/156060 [00:00<00:00, 329550.89it/s] 27%|██▋       | 42843/156060 [00:00<00:00, 192837.57it/s] 39%|███▉      | 60512/156060 [00:00<00:00, 187691.58it/s] 61%|██████▏   | 95967/156060 [00:00<00:00, 218546.32it/s] 84%|████████▍ | 131632/156060 [00:00<00:00, 247270.61it/s]100%|██████████| 156060/156060 [00:00<00:00, 270182.85it/s]
+  0%|          | 0/16532 [00:00<?, ?it/s]/remote-home/zyfei/nlp-beginner/task2/data_load.py:82: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1595629403081/work/torch/csrc/utils/tensor_numpy.cpp:141.)
+  res[idx] = torch.tensor(model.get_vector(word))
+ 29%|██▉       | 4815/16532 [00:00<00:00, 48140.86it/s] 62%|██████▏   | 10187/16532 [00:00<00:00, 49687.05it/s] 81%|████████  | 13334/16532 [00:00<00:00, 42312.43it/s] 97%|█████████▋| 16113/16532 [00:00<00:00, 32139.24it/s]100%|██████████| 16532/16532 [00:00<00:00, 37361.95it/s]
+  0%|          | 0/156060 [00:00<?, ?it/s]  6%|▌         | 8731/156060 [00:00<00:01, 87285.73it/s]  7%|▋         | 11350/156060 [00:00<00:02, 49134.90it/s] 14%|█▎        | 21107/156060 [00:00<00:02, 57732.48it/s] 19%|█▉        | 30296/156060 [00:00<00:01, 64978.59it/s] 26%|██▌       | 40073/156060 [00:00<00:01, 72246.57it/s] 32%|███▏      | 50383/156060 [00:00<00:01, 79370.50it/s] 39%|███▉      | 60711/156060 [00:00<00:01, 85293.44it/s] 45%|████▍     | 69491/156060 [00:00<00:01, 67349.41it/s] 51%|█████     | 79778/156060 [00:01<00:01, 75132.05it/s] 57%|█████▋    | 89342/156060 [00:01<00:00, 80297.20it/s] 63%|██████▎   | 98047/156060 [00:01<00:00, 67950.21it/s] 69%|██████▉   | 107870/156060 [00:01<00:00, 74872.68it/s] 75%|███████▍  | 116876/156060 [00:01<00:00, 78860.68it/s] 81%|████████  | 126792/156060 [00:01<00:00, 84019.51it/s] 88%|████████▊ | 137045/156060 [00:01<00:00, 88828.23it/s] 94%|█████████▍| 147437/156060 [00:01<00:00, 92874.03it/s]100%|██████████| 156060/156060 [00:01<00:00, 83925.60it/s]
+  0%|          | 0/156060 [00:00<?, ?it/s]  7%|▋         | 11594/156060 [00:00<00:01, 115939.56it/s] 14%|█▍        | 22586/156060 [00:00<00:01, 114064.43it/s] 20%|██        | 31503/156060 [00:00<00:01, 95342.92it/s]  28%|██▊       | 44123/156060 [00:00<00:01, 102888.73it/s] 36%|███▌      | 55963/156060 [00:00<00:00, 107096.76it/s] 42%|████▏     | 65145/156060 [00:00<00:01, 89052.77it/s]  49%|████▉     | 76826/156060 [00:00<00:00, 95887.21it/s] 57%|█████▋    | 89400/156060 [00:00<00:00, 103239.09it/s] 65%|██████▌   | 101917/156060 [00:00<00:00, 108966.02it/s] 73%|███████▎  | 114475/156060 [00:01<00:00, 113467.17it/s] 81%|████████  | 125925/156060 [00:01<00:00, 94322.63it/s]  88%|████████▊ | 136658/156060 [00:01<00:00, 97879.17it/s] 95%|█████████▍| 147605/156060 [00:01<00:00, 101089.60it/s]100%|██████████| 156060/156060 [00:01<00:00, 103423.99it/s]
+  0%|          | 0/156060 [00:00<?, ?it/s] 22%|██▏       | 34936/156060 [00:00<00:00, 349358.67it/s] 45%|████▍     | 69894/156060 [00:00<00:00, 349424.89it/s] 68%|██████▊   | 105506/156060 [00:00<00:00, 351404.95it/s] 91%|█████████ | 141417/156060 [00:00<00:00, 353678.88it/s]100%|██████████| 156060/156060 [00:00<00:00, 352136.19it/s]
+  0%|          | 0/16532 [00:00<?, ?it/s] 17%|█▋        | 2844/16532 [00:00<00:00, 28437.25it/s] 29%|██▉       | 4821/16532 [00:00<00:00, 25129.94it/s] 43%|████▎     | 7132/16532 [00:00<00:00, 24486.72it/s] 75%|███████▌  | 12446/16532 [00:00<00:00, 29211.25it/s]100%|██████████| 16532/16532 [00:00<00:00, 35571.33it/s]Construct Corpus...
+Convert Corpus to Integers
+Convert Phrase to Integers
+loading vec embeding models...
+convert models...
+total 16532 words and in ../data/pre/glove.6B.100d.word2vec.txt find 15248 words
+Construct Corpus...
+Convert Corpus to Integers
+Convert Phrase to Integers
+loading vec embeding models...
+convert models...
+total 16532 words and in ../data/pre/word2vec.100d.word2vec.txt find 15805 words
+traing rnn with glove model ...
+epoch 0 train loss:1.283026,train acc:0.513062 test acc:0.5013768
+epoch 1 train loss:1.289144,train acc:0.512454 test acc:0.5014408
+epoch 2 train loss:1.287912,train acc:0.512181 test acc:0.5010566
+epoch 3 train loss:1.288151,train acc:0.512253 test acc:0.5010246
+epoch 4 train loss:1.287494,train acc:0.512566 test acc:0.5011527
+epoch 5 train loss:1.286214,train acc:0.512205 test acc:0.5010566
+epoch 6 train loss:1.279748,train acc:0.512854 test acc:0.5014088
+epoch 7 train loss:1.264235,train acc:0.512854 test acc:0.5015369
+epoch 8 train loss:1.237404,train acc:0.517275 test acc:0.5069160
+epoch 9 train loss:1.244498,train acc:0.512197 test acc:0.5011527
+epoch 10 train loss:1.282218,train acc:0.512285 test acc:0.5010566
+epoch 11 train loss:1.288507,train acc:0.512405 test acc:0.5010566
+epoch 12 train loss:1.287550,train acc:0.512718 test acc:0.5012487
+epoch 13 train loss:1.231976,train acc:0.513190 test acc:0.5023694
+epoch 14 train loss:1.242605,train acc:0.512838 test acc:0.5019851
+epoch 15 train loss:1.228196,train acc:0.512654 test acc:0.5005443
+epoch 16 train loss:1.248444,train acc:0.513351 test acc:0.4996265
+epoch 17 train loss:1.244850,train acc:0.512317 test acc:0.5011206
+epoch 18 train loss:1.279034,train acc:0.512277 test acc:0.5011206
+epoch 19 train loss:1.254271,train acc:0.512918 test acc:0.5010246
+epoch 20 train loss:1.236812,train acc:0.514360 test acc:0.5020172
+epoch 21 train loss:1.261348,train acc:0.512606 test acc:0.5011847
+epoch 22 train loss:1.274375,train acc:0.510147 test acc:0.4945996
+epoch 23 train loss:1.275788,train acc:0.512734 test acc:0.5015689
+epoch 24 train loss:1.256306,train acc:0.513623 test acc:0.5024334
+epoch 25 train loss:1.255405,train acc:0.512670 test acc:0.4994664
+epoch 26 train loss:1.220858,train acc:0.512093 test acc:0.4993916
+epoch 27 train loss:1.181608,train acc:0.517555 test acc:0.5037462
+epoch 28 train loss:1.245582,train acc:0.512349 test acc:0.5010566
+epoch 29 train loss:1.270509,train acc:0.512486 test acc:0.5011527
+epoch 30 train loss:1.245937,train acc:0.511741 test acc:0.5005123
+epoch 31 train loss:1.223939,train acc:0.513719 test acc:0.4994557
+epoch 32 train loss:1.211369,train acc:0.504413 test acc:0.4934149
+epoch 33 train loss:1.248911,train acc:0.512606 test acc:0.5013128
+epoch 34 train loss:1.247348,train acc:0.512686 test acc:0.5013768
+epoch 35 train loss:1.219657,train acc:0.512518 test acc:0.5011847
+epoch 36 train loss:1.289065,train acc:0.512894 test acc:0.5013448
+epoch 37 train loss:1.288435,train acc:0.512982 test acc:0.5011847
+epoch 38 train loss:1.288284,train acc:0.513214 test acc:0.5011527
+epoch 39 train loss:1.260768,train acc:0.512558 test acc:0.5012167
+epoch 40 train loss:1.242085,train acc:0.512702 test acc:0.5012807
+epoch 41 train loss:1.244996,train acc:0.512862 test acc:0.5013448
+epoch 42 train loss:1.248094,train acc:0.512726 test acc:0.5012487
+epoch 43 train loss:1.233148,train acc:0.512950 test acc:0.5013448
+epoch 44 train loss:1.237507,train acc:0.512806 test acc:0.5015369
+epoch 45 train loss:1.229937,train acc:0.512886 test acc:0.5015689
+epoch 46 train loss:1.239675,train acc:0.512686 test acc:0.5013768
+epoch 47 train loss:1.198253,train acc:0.510804 test acc:0.4962218
+epoch 48 train loss:1.196425,train acc:0.509074 test acc:0.4991995
+epoch 49 train loss:1.186717,train acc:0.511589 test acc:0.4997652
+traing rnn with random wmbedding model ...
+epoch 0 train loss:1.287390,train acc:0.512397 test acc:0.5011847
+epoch 1 train loss:1.288807,train acc:0.512790 test acc:0.5013448
+epoch 2 train loss:1.288054,train acc:0.512774 test acc:0.5009606
+epoch 3 train loss:1.287929,train acc:0.512878 test acc:0.5009285
+epoch 4 train loss:1.287591,train acc:0.513118 test acc:0.5013448
+epoch 5 train loss:1.287483,train acc:0.513294 test acc:0.5010886
+epoch 6 train loss:1.287412,train acc:0.513230 test acc:0.5013128
+epoch 7 train loss:1.286844,train acc:0.513246 test acc:0.5010886
+epoch 8 train loss:1.286457,train acc:0.513375 test acc:0.5011847
+epoch 9 train loss:1.286596,train acc:0.513318 test acc:0.5013128
+epoch 10 train loss:1.286727,train acc:0.513407 test acc:0.5013128
+epoch 11 train loss:1.286173,train acc:0.513439 test acc:0.5011206
+epoch 12 train loss:1.286932,train acc:0.513415 test acc:0.5011206
+epoch 13 train loss:1.286058,train acc:0.513326 test acc:0.5013128
+epoch 14 train loss:1.287022,train acc:0.513407 test acc:0.5010886
+epoch 15 train loss:1.286607,train acc:0.513383 test acc:0.5010566
+epoch 16 train loss:1.286131,train acc:0.513359 test acc:0.5012167
+epoch 17 train loss:1.286519,train acc:0.513391 test acc:0.5012487
+epoch 18 train loss:1.285918,train acc:0.513527 test acc:0.5012167
+epoch 19 train loss:1.286363,train acc:0.513351 test acc:0.5014088
+epoch 20 train loss:1.286299,train acc:0.513318 test acc:0.5011847
+epoch 21 train loss:1.283958,train acc:0.513887 test acc:0.5012807
+epoch 22 train loss:1.286406,train acc:0.513391 test acc:0.5014088
+epoch 23 train loss:1.284150,train acc:0.513262 test acc:0.5013128
+epoch 24 train loss:1.284231,train acc:0.513375 test acc:0.5014728
+epoch 25 train loss:1.285218,train acc:0.513407 test acc:0.5012807
+epoch 26 train loss:1.287231,train acc:0.513359 test acc:0.5012487
+epoch 27 train loss:1.286851,train acc:0.513519 test acc:0.5013448
+epoch 28 train loss:1.286639,train acc:0.513391 test acc:0.5014408
+epoch 29 train loss:1.286725,train acc:0.513415 test acc:0.5014088
+epoch 30 train loss:1.287014,train acc:0.513326 test acc:0.5011527
+epoch 31 train loss:1.286140,train acc:0.513383 test acc:0.5012487
+epoch 32 train loss:1.287060,train acc:0.513351 test acc:0.5011206
+epoch 33 train loss:1.286563,train acc:0.513455 test acc:0.5014408
+epoch 34 train loss:1.286878,train acc:0.513439 test acc:0.5014088
+epoch 35 train loss:1.286550,train acc:0.513599 test acc:0.5013448
+epoch 36 train loss:1.286353,train acc:0.513439 test acc:0.5014088
+epoch 37 train loss:1.286936,train acc:0.513463 test acc:0.5011527
+epoch 38 train loss:1.286723,train acc:0.513343 test acc:0.5013768
+epoch 39 train loss:1.287299,train acc:0.513294 test acc:0.5011847
+epoch 40 train loss:1.287073,train acc:0.513246 test acc:0.5013448
+epoch 41 train loss:1.287031,train acc:0.513375 test acc:0.5011527
+epoch 42 train loss:1.286705,train acc:0.513599 test acc:0.5012487
+epoch 43 train loss:1.286607,train acc:0.513703 test acc:0.5014728
+epoch 44 train loss:1.286198,train acc:0.513671 test acc:0.5012487
+epoch 45 train loss:1.285418,train acc:0.513783 test acc:0.5011206
+epoch 46 train loss:1.285258,train acc:0.513583 test acc:0.5010886
+epoch 47 train loss:1.287940,train acc:0.513623 test acc:0.5011206
+epoch 48 train loss:1.287147,train acc:0.513655 test acc:0.5012167
+epoch 49 train loss:1.286640,train acc:0.513775 test acc:0.5015689
+traing rnn with word2vec model ...
+epoch 0 train loss:1.287781,train acc:0.512638 test acc:0.5010566
+epoch 1 train loss:1.288379,train acc:0.512582 test acc:0.5011527
+epoch 2 train loss:1.288284,train acc:0.512662 test acc:0.5013448
+epoch 3 train loss:1.284106,train acc:0.512590 test acc:0.5010566
+epoch 4 train loss:1.274589,train acc:0.512654 test acc:0.5012167
+epoch 5 train loss:1.274330,train acc:0.512742 test acc:0.5011847
+epoch 6 train loss:1.285527,train acc:0.512910 test acc:0.5018251
+epoch 7 train loss:1.287827,train acc:0.512902 test acc:0.5013448
+epoch 8 train loss:1.281155,train acc:0.512734 test acc:0.5015369
+epoch 9 train loss:1.287840,train acc:0.513270 test acc:0.5014408
+epoch 10 train loss:1.287298,train acc:0.513463 test acc:0.5015369
+epoch 11 train loss:1.284624,train acc:0.512614 test acc:0.5011527
+epoch 12 train loss:1.287745,train acc:0.512894 test acc:0.5013768
+epoch 13 train loss:1.286547,train acc:0.512854 test acc:0.5012487
+epoch 14 train loss:1.285603,train acc:0.512910 test acc:0.5013448
+epoch 15 train loss:1.285865,train acc:0.512958 test acc:0.5012807
+epoch 16 train loss:1.270485,train acc:0.513270 test acc:0.5016970
+epoch 17 train loss:1.276464,train acc:0.510684 test acc:0.4994664
+epoch 18 train loss:1.274365,train acc:0.513030 test acc:0.5012807
+epoch 19 train loss:1.286742,train acc:0.513094 test acc:0.5013128
+epoch 20 train loss:1.286659,train acc:0.513054 test acc:0.5013768
+epoch 21 train loss:1.286739,train acc:0.513519 test acc:0.5013768
+epoch 22 train loss:1.286915,train acc:0.513447 test acc:0.5013768
+epoch 23 train loss:1.287073,train acc:0.350421 test acc:0.3458312
+epoch 24 train loss:1.277454,train acc:0.514560 test acc:0.5032018
+epoch 25 train loss:1.253993,train acc:0.512966 test acc:0.5011527
+epoch 26 train loss:1.284890,train acc:0.513110 test acc:0.5014728
+epoch 27 train loss:1.284538,train acc:0.513294 test acc:0.5013768
+epoch 28 train loss:1.282493,train acc:0.513663 test acc:0.5015049
+epoch 29 train loss:1.281347,train acc:0.513559 test acc:0.5012487
+epoch 30 train loss:1.277140,train acc:0.513703 test acc:0.5013768
+epoch 31 train loss:1.278440,train acc:0.513343 test acc:0.5012807
+epoch 32 train loss:1.275653,train acc:0.514264 test acc:0.5023373
+epoch 33 train loss:1.278781,train acc:0.512990 test acc:0.5012167
+epoch 34 train loss:1.287960,train acc:0.513262 test acc:0.5014088
+epoch 35 train loss:1.285565,train acc:0.513182 test acc:0.5013128
+epoch 36 train loss:1.287517,train acc:0.513487 test acc:0.5014408
+epoch 37 train loss:1.286595,train acc:0.513495 test acc:0.5013128
+epoch 38 train loss:1.285359,train acc:0.514239 test acc:0.5020812
+epoch 39 train loss:1.280696,train acc:0.513455 test acc:0.5015049
+epoch 40 train loss:1.286651,train acc:0.513599 test acc:0.5015369
+epoch 41 train loss:1.286958,train acc:0.513591 test acc:0.5015049
+epoch 42 train loss:1.286676,train acc:0.513575 test acc:0.5015049
+epoch 43 train loss:1.286978,train acc:0.513615 test acc:0.5014408
+epoch 44 train loss:1.286869,train acc:0.513679 test acc:0.5014728
+epoch 45 train loss:1.286419,train acc:0.513807 test acc:0.5015369
+epoch 46 train loss:1.285680,train acc:0.513863 test acc:0.5014728
+epoch 47 train loss:1.286090,train acc:0.513783 test acc:0.5013768
+epoch 48 train loss:1.286284,train acc:0.513927 test acc:0.5014088
+epoch 49 train loss:1.286091,train acc:0.513975 test acc:0.5015369
+traing cnn with glove model ...
+epoch 0 train loss:0.894382,train acc:0.706024 test acc:0.6678940
+epoch 1 train loss:0.742798,train acc:0.741118 test acc:0.6735186
+epoch 2 train loss:0.662977,train acc:0.762205 test acc:0.6700286
+epoch 3 train loss:0.597954,train acc:0.778951 test acc:0.6637210
+epoch 4 train loss:0.539622,train acc:0.788049 test acc:0.6576588
+epoch 5 train loss:0.486618,train acc:0.795762 test acc:0.6507855
+epoch 6 train loss:0.436818,train acc:0.799822 test acc:0.6437415
+epoch 7 train loss:0.392757,train acc:0.802433 test acc:0.6355447
+epoch 8 train loss:0.352762,train acc:0.805084 test acc:0.6283299
+epoch 9 train loss:0.318193,train acc:0.807975 test acc:0.6264515
+epoch 10 train loss:0.290632,train acc:0.805356 test acc:0.6184149
+epoch 11 train loss:0.270231,train acc:0.804884 test acc:0.6123420
+epoch 12 train loss:0.252287,train acc:0.795449 test acc:0.5992038
+epoch 13 train loss:0.238970,train acc:0.807839 test acc:0.6091829
+epoch 14 train loss:0.228872,train acc:0.811002 test acc:0.6108372
+epoch 15 train loss:0.214736,train acc:0.813886 test acc:0.6122353
+epoch 16 train loss:0.205468,train acc:0.806397 test acc:0.5998335
+epoch 17 train loss:0.199288,train acc:0.806590 test acc:0.5977523
+epoch 18 train loss:0.192157,train acc:0.804659 test acc:0.5950841
+epoch 19 train loss:0.184960,train acc:0.814174 test acc:0.6029606
+epoch 20 train loss:0.178787,train acc:0.819115 test acc:0.6067495
+epoch 21 train loss:0.176409,train acc:0.827652 test acc:0.6133773
+epoch 22 train loss:0.165237,train acc:0.829887 test acc:0.6132706
+epoch 23 train loss:0.162925,train acc:0.826820 test acc:0.6069950
+epoch 24 train loss:0.159118,train acc:0.823256 test acc:0.6004205
+epoch 25 train loss:0.149671,train acc:0.829551 test acc:0.6051806
+epoch 26 train loss:0.148590,train acc:0.829719 test acc:0.6048177
+epoch 27 train loss:0.145707,train acc:0.838152 test acc:0.6089267
+epoch 28 train loss:0.143998,train acc:0.834660 test acc:0.6031421
+epoch 29 train loss:0.135327,train acc:0.831593 test acc:0.6013384
+epoch 30 train loss:0.138226,train acc:0.834404 test acc:0.6055328
+epoch 31 train loss:0.137086,train acc:0.834884 test acc:0.6045722
+epoch 32 train loss:0.130261,train acc:0.835613 test acc:0.6043054
+epoch 33 train loss:0.130538,train acc:0.834916 test acc:0.6049244
+epoch 34 train loss:0.126391,train acc:0.840290 test acc:0.6027365
+epoch 35 train loss:0.122610,train acc:0.834868 test acc:0.6013384
+epoch 36 train loss:0.123832,train acc:0.833875 test acc:0.6011356
+epoch 37 train loss:0.119307,train acc:0.833547 test acc:0.5958205
+epoch 38 train loss:0.116757,train acc:0.836871 test acc:0.5945078
+epoch 39 train loss:0.114981,train acc:0.825162 test acc:0.5829598
+epoch 40 train loss:0.113200,train acc:0.832033 test acc:0.5929602
+epoch 41 train loss:0.111128,train acc:0.817537 test acc:0.5811241
+epoch 42 train loss:0.111545,train acc:0.832257 test acc:0.5990117
+epoch 43 train loss:0.106138,train acc:0.835509 test acc:0.6032061
+epoch 44 train loss:0.106457,train acc:0.827220 test acc:0.5963648
+epoch 45 train loss:0.106111,train acc:0.832570 test acc:0.5993319
+epoch 46 train loss:0.108216,train acc:0.827701 test acc:0.5972507
+epoch 47 train loss:0.103179,train acc:0.832434 test acc:0.5958846
+epoch 48 train loss:0.102522,train acc:0.836238 test acc:0.6053193
+epoch 49 train loss:0.102492,train acc:0.831377 test acc:0.5979231
+traing cnn with random embedding model ...
+epoch 0 train loss:1.069728,train acc:0.652061 test acc:0.6057996
+epoch 1 train loss:0.855235,train acc:0.717244 test acc:0.6392589
+epoch 2 train loss:0.750433,train acc:0.744706 test acc:0.6438695
+epoch 3 train loss:0.677070,train acc:0.758041 test acc:0.6431545
+epoch 4 train loss:0.617300,train acc:0.768628 test acc:0.6382236
+epoch 5 train loss:0.569442,train acc:0.775796 test acc:0.6372097
+epoch 6 train loss:0.527752,train acc:0.784902 test acc:0.6342747
+epoch 7 train loss:0.494681,train acc:0.790732 test acc:0.6298455
+epoch 8 train loss:0.466771,train acc:0.797876 test acc:0.6228975
+epoch 9 train loss:0.444895,train acc:0.802641 test acc:0.6167713
+epoch 10 train loss:0.423320,train acc:0.807222 test acc:0.6147007
+epoch 11 train loss:0.405803,train acc:0.814694 test acc:0.6140710
+epoch 12 train loss:0.389633,train acc:0.819219 test acc:0.6107945
+epoch 13 train loss:0.376090,train acc:0.822287 test acc:0.6075286
+epoch 14 train loss:0.361314,train acc:0.820260 test acc:0.6022242
+epoch 15 train loss:0.347280,train acc:0.835309 test acc:0.6091189
+epoch 16 train loss:0.336017,train acc:0.839305 test acc:0.6116697
+epoch 17 train loss:0.325048,train acc:0.846553 test acc:0.6123954
+epoch 18 train loss:0.310779,train acc:0.842869 test acc:0.6042841
+epoch 19 train loss:0.301662,train acc:0.844807 test acc:0.6072725
+epoch 20 train loss:0.290266,train acc:0.837647 test acc:0.5980191
+epoch 21 train loss:0.282292,train acc:0.849212 test acc:0.5973040
+epoch 22 train loss:0.275180,train acc:0.845864 test acc:0.5863110
+epoch 23 train loss:0.266510,train acc:0.860000 test acc:0.5964716
+epoch 24 train loss:0.256293,train acc:0.854129 test acc:0.5974001
+epoch 25 train loss:0.247827,train acc:0.866975 test acc:0.6018507
+epoch 26 train loss:0.241135,train acc:0.864004 test acc:0.6007941
+epoch 27 train loss:0.233693,train acc:0.875689 test acc:0.6021388
+epoch 28 train loss:0.229201,train acc:0.880126 test acc:0.6011783
+epoch 29 train loss:0.227582,train acc:0.877194 test acc:0.5994173
+epoch 30 train loss:0.218071,train acc:0.882016 test acc:0.6020748
+epoch 31 train loss:0.212156,train acc:0.886012 test acc:0.6044762
+epoch 32 train loss:0.208834,train acc:0.878852 test acc:0.6047964
+epoch 33 train loss:0.204395,train acc:0.885115 test acc:0.5968878
+epoch 34 train loss:0.198300,train acc:0.887325 test acc:0.5980725
+epoch 35 train loss:0.190926,train acc:0.888270 test acc:0.6027472
+epoch 36 train loss:0.189087,train acc:0.891586 test acc:0.6026511
+
+epoch 37 train loss:0.187153,train acc:0.893676 test acc:0.5971440
+epoch 38 train loss:0.182576,train acc:0.895831 test acc:0.6038678
+epoch 39 train loss:0.176501,train acc:0.901012 test acc:0.6067495
+epoch 40 train loss:0.177185,train acc:0.902774 test acc:0.6020748
+epoch 41 train loss:0.175446,train acc:0.898450 test acc:0.6052766
+epoch 42 train loss:0.166654,train acc:0.904800 test acc:0.6052126
+epoch 43 train loss:0.164307,train acc:0.901269 test acc:0.6042841
+epoch 44 train loss:0.162642,train acc:0.903119 test acc:0.6008261
+epoch 45 train loss:0.161900,train acc:0.899154 test acc:0.6045082
+epoch 46 train loss:0.157384,train acc:0.902782 test acc:0.6071977
+epoch 47 train loss:0.153515,train acc:0.898145 test acc:0.6088307
+epoch 48 train loss:0.152839,train acc:0.900075 test acc:0.6053407
+epoch 49 train loss:0.152952,train acc:0.894405 test acc:0.6012103
+traing cnn with word2vec model ...
+epoch 0 train loss:1.010560,train acc:0.680596 test acc:0.6465911
+epoch 1 train loss:0.799926,train acc:0.718870 test acc:0.6626857
+epoch 2 train loss:0.727019,train acc:0.740229 test acc:0.6635395
+epoch 3 train loss:0.675464,train acc:0.755774 test acc:0.6608820
+epoch 4 train loss:0.631064,train acc:0.768853 test acc:0.6578082
+epoch 5 train loss:0.590212,train acc:0.780137 test acc:0.6541795
+epoch 6 train loss:0.551402,train acc:0.785975 test acc:0.6461428
+epoch 7 train loss:0.514020,train acc:0.792518 test acc:0.6445739
+epoch 8 train loss:0.477977,train acc:0.795858 test acc:0.6384904
+epoch 9 train loss:0.444853,train acc:0.800423 test acc:0.6342320
+epoch 10 train loss:0.413552,train acc:0.804627 test acc:0.6299202
+epoch 11 train loss:0.384571,train acc:0.807991 test acc:0.6287995
+epoch 12 train loss:0.357965,train acc:0.810578 test acc:0.6269104
+epoch 13 train loss:0.333072,train acc:0.812244 test acc:0.6236552
+epoch 14 train loss:0.310171,train acc:0.810626 test acc:0.6170594
+epoch 15 train loss:0.289857,train acc:0.811755 test acc:0.6137829
+epoch 16 train loss:0.271564,train acc:0.809793 test acc:0.6095991
+epoch 17 train loss:0.256873,train acc:0.809785 test acc:0.6073472
+epoch 18 train loss:0.241366,train acc:0.807975 test acc:0.6059490
+epoch 19 train loss:0.227713,train acc:0.812868 test acc:0.6094070
+epoch 20 train loss:0.213665,train acc:0.813261 test acc:0.6079342
+epoch 21 train loss:0.204198,train acc:0.812364 test acc:0.6076780
+epoch 22 train loss:0.196325,train acc:0.817369 test acc:0.6026938
+epoch 23 train loss:0.190023,train acc:0.817562 test acc:0.6037398
+epoch 24 train loss:0.181524,train acc:0.819155 test acc:0.6011783
+epoch 25 train loss:0.174826,train acc:0.815968 test acc:0.6023950
+epoch 26 train loss:0.167139,train acc:0.817986 test acc:0.6020108
+epoch 27 train loss:0.162846,train acc:0.818675 test acc:0.6030353
+epoch 28 train loss:0.159060,train acc:0.814622 test acc:0.5998975
+epoch 29 train loss:0.155536,train acc:0.816448 test acc:0.5991184
+epoch 30 train loss:0.153037,train acc:0.814302 test acc:0.5991825
+epoch 31 train loss:0.148683,train acc:0.814935 test acc:0.5965356
+epoch 32 train loss:0.146884,train acc:0.813133 test acc:0.5965996
+epoch 33 train loss:0.143065,train acc:0.814166 test acc:0.5939741
+epoch 34 train loss:0.140423,train acc:0.824673 test acc:0.5987129
+epoch 35 train loss:0.135921,train acc:0.822903 test acc:0.5957351
+epoch 36 train loss:0.133897,train acc:0.826868 test acc:0.5965783
+epoch 37 train loss:0.138123,train acc:0.821702 test acc:0.5968451
+epoch 38 train loss:0.135895,train acc:0.823464 test acc:0.5968878
+epoch 39 train loss:0.133781,train acc:0.816961 test acc:0.5966317
+epoch 40 train loss:0.133529,train acc:0.827492 test acc:0.5986488
+epoch 41 train loss:0.131433,train acc:0.827965 test acc:0.5989050
+epoch 42 train loss:0.130282,train acc:0.827020 test acc:0.6034836
+epoch 43 train loss:0.130215,train acc:0.834900 test acc:0.6029073
+epoch 44 train loss:0.128203,train acc:0.835621 test acc:0.5968558
+epoch 45 train loss:0.125211,train acc:0.833795 test acc:0.6045082
+epoch 46 train loss:0.126774,train acc:0.831977 test acc:0.6039639
+epoch 47 train loss:0.126281,train acc:0.836254 test acc:0.6033876
+epoch 48 train loss:0.121916,train acc:0.836406 test acc:0.6035370
+epoch 49 train loss:0.119866,train acc:0.839730 test acc:0.6011463

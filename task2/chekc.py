@@ -13,13 +13,13 @@ from tqdm import tqdm
 from gensim.scripts.glove2word2vec import glove2word2vec
 from gensim.models import KeyedVectors, Word2Vec
 
-# glove_file = "../data/pre/glove.6B.300d.txt"
-# word2vec_file = "../data/pre/glove.6B.300d.word2vec.txt"
+glove_file = "../data/pre/glove.6B.100d.txt"
+word2vec_file = "../data/pre/glove.6B.100d.word2vec.txt"
 #
-# start_time = time.time()
-# if not os.path.exists(word2vec_file):
-#     (count, dim) = glove2word2vec(glove_file,word2vec_file)
-# print(time.time()-start_time)
+start_time = time.time()
+if not os.path.exists(word2vec_file):
+    (count, dim) = glove2word2vec(glove_file,word2vec_file)
+print(time.time()-start_time)
 #
 # glove_model = KeyedVectors.load_word2vec_format(word2vec_file, binary=False)
 # print(time.time()-start_time)
@@ -37,7 +37,7 @@ corpus = []
 for i in tqdm(range(len(df))):
     corpus.append(df.Phrase[i].lower().split())
 
-word2vec_model = Word2Vec(corpus,size=50)
+word2vec_model = Word2Vec(corpus,size=100)
 word2vec_wv = word2vec_model.wv
 
-word2vec_wv.save_word2vec_format("../data/pre/word2vec.50d.word2vec.txt",binary=False)
+word2vec_wv.save_word2vec_format("../data/pre/word2vec.100d.word2vec.txt",binary=False)

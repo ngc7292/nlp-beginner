@@ -21,28 +21,30 @@ if __name__ == '__main__':
     class_num = 5
     batch_size = 32
     sentence_len = 40
+    embedding_dim = 100
 
     device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
 
     train_loader, test_loader, embed_pretrain_glove, vocab_size = get_dataloader(sentence_len=sentence_len, pre_model="glove")
 
     _, _, embed_pretrain_word2vec, _ = get_dataloader(sentence_len=sentence_len, pre_model="word2vec")
-    rnn_model_with_glove = TextRnn(vocab_size=vocab_size, embedding_dim=50, class_num=5, hidden_size=128,
+
+    rnn_model_with_glove = TextRnn(vocab_size=vocab_size, embedding_dim=embedding_dim, class_num=5, hidden_size=128,
                                    embedding_pretrained=embed_pretrain_glove, device=device)
 
-    cnn_model_with_glove = TextCnn(vocab_size=vocab_size, embedding_dim=50, hidden_size=128, class_num=class_num,
+    cnn_model_with_glove = TextCnn(vocab_size=vocab_size, embedding_dim=embedding_dim, hidden_size=128, class_num=class_num,
                                    embedding_pretrained=embed_pretrain_glove)
 
-    rnn_model_without = TextRnn(vocab_size=vocab_size, embedding_dim=50, class_num=5, hidden_size=128,
+    rnn_model_without = TextRnn(vocab_size=vocab_size, embedding_dim=embedding_dim, class_num=5, hidden_size=128,
                                 embedding_pretrained=None, device=device)
 
-    cnn_model_without = TextCnn(vocab_size=vocab_size, embedding_dim=50, hidden_size=128, class_num=class_num,
+    cnn_model_without = TextCnn(vocab_size=vocab_size, embedding_dim=embedding_dim, hidden_size=128, class_num=class_num,
                                 embedding_pretrained=None)
 
-    rnn_model_with_word2vec = TextRnn(vocab_size=vocab_size, embedding_dim=50, class_num=5, hidden_size=128,
+    rnn_model_with_word2vec = TextRnn(vocab_size=vocab_size, embedding_dim=embedding_dim, class_num=5, hidden_size=128,
                                 embedding_pretrained=embed_pretrain_word2vec, device=device)
 
-    cnn_model_with_word2vec =  TextCnn(vocab_size=vocab_size, embedding_dim=50, hidden_size=128, class_num=class_num,
+    cnn_model_with_word2vec =  TextCnn(vocab_size=vocab_size, embedding_dim=embedding_dim, hidden_size=128, class_num=class_num,
                                 embedding_pretrained=embed_pretrain_word2vec)
 
     model_list = [rnn_model_with_glove,
@@ -136,8 +138,8 @@ if __name__ == '__main__':
         train_acc_list.append(train_acc_history)
         test_acc_list.append(test_acc_history)
 
-    pd.DataFrame(loss_history_list).to_csv("./result/loss_history.csv")
-    pd.DataFrame(train_acc_list).to_csv("./result/acc_history.csv")
-    pd.DataFrame(test_acc_list).to_csv("./result/test_acc_history.csv")
+    pd.DataFrame(loss_history_list).to_csv("./result/loss_history_100d.csv")
+    pd.DataFrame(train_acc_list).to_csv("./result/acc_history_100d.csv")
+    pd.DataFrame(test_acc_list).to_csv("./result/test_acc_history_100d.csv")
 
 

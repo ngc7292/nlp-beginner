@@ -31,6 +31,7 @@ class TextCnn(nn.Module):
         self.conv_layer = nn.ModuleList([nn.Conv2d(1, hidden_size, (k, embedding_dim)) for k in kernel_size])
 
         self.dropout_layer = nn.Dropout(dropout)
+
         self.linear_layer = nn.Linear(3*hidden_size, class_num)
 
     def forward(self,x):
@@ -64,9 +65,9 @@ class TextRnn(nn.Module):
         self.device = device
 
         if embedding_pretrained is None:
-            self.embedding_layer = nn.Embedding(vocab_size,embedding_dim,padding_idx=max_len)
+            self.embedding_layer = nn.Embedding(vocab_size, embedding_dim, padding_idx=max_len)
         else:
-            self.embedding_layer = nn.Embedding(vocab_size, embedding_dim,padding_idx=max_len, _weight=embedding_pretrained)
+            self.embedding_layer = nn.Embedding(vocab_size, embedding_dim, padding_idx=max_len, _weight=embedding_pretrained)
 
         self.rnn_layer = nn.RNN(input_size=embedding_dim, hidden_size=hidden_size, batch_first=True)
 
