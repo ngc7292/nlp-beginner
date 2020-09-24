@@ -86,7 +86,7 @@ def get_pretrained(id2word, model_file, vec_dim=50):
     print("total %d words and in %s find %d words" % (len(id2word), model_file, count))
     return res.float()
 
-
+ua眼泪uu事
 def get_dataloader(batch_size=32, set_len=-1, sentence_len=50, pre_model='glove'):
     """
     :param batch_size:
